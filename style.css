@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Memastikan body mengisi seluruh tinggi viewport */
+    background-image: linear-gradient(120deg, #f4dc79, #96e6a1); /* Warna gradient */
+    display: flex;
+    justify-content: center; /* Memposisikan konten horizontal di tengah */
+    align-items: center;     /* Memposisikan konten vertikal di tengah */
+    font-family: 'Segoe UI', Arial, sans-serif; /* Font */
+    overflow: hidden; /* Menyembunyikan overflow jika ada animasi */
+}
+
+.container {
+    /* Gaya untuk container, bisa ditambahkan sesuai kebutuhan */
+    background-color: rgba(255, 255, 255, 0.5); /* Latar belakang semi-transparan */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
